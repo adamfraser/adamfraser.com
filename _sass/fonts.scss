@@ -1,0 +1,68 @@
+$header-font: 'Roboto Slab', Helvetica, sans-serif;
+$body-font: Lato;
+
+@font-face {
+  font-family: "Mono Social Icons Font";
+  src:url("/assets/MonoSocialIconsFont-1.10.woff"),
+      url("MonoSocialIconsFont-1.10.ttf"),
+      url("MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont"),
+      url("MonoSocialIconsFont-1.10.eot");
+
+      font-weight: normal;
+      font-style: normal;
+}
+
+//Font Weights
+$light-weight: 100;
+
+h1, h2, body {
+  color: white;
+}
+
+body {
+  font-family: $header-font;
+  font-size: 120%;
+}
+
+h1 {
+  font-size: 5.0em;
+}
+
+h2 {
+  font-family: $body-font;
+  font-size: 2.5em;
+  font-weight: $light-weight;
+}
+
+h3 {
+  font-size: 2.0em;
+  color: black;
+  font-family: $body-font;
+  font-weight: $light-weight;
+}
+
+.social_links a:before {
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+
+  content: attr(title);
+  margin-right: 0.3em;
+  font-size: 6.0em;
+}
+
+.social_links {
+  a:hover, a:visited, a:link, a:active {
+    color: white;
+    text-decoration: none;
+  }
+}
+

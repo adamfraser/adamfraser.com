@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Mono Social Icons Font";
+  src: url("/assets/MonoSocialIconsFont-1.10.woff"), url("MonoSocialIconsFont-1.10.ttf"), url("MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont"), url("MonoSocialIconsFont-1.10.eot");
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, body {
+  color: white;
+}
+
+body {
+  font-family: "Roboto Slab", Helvetica, sans-serif;
+  font-size: 120%;
+}
+
+h1 {
+  font-size: 5.0em;
+}
+
+h2 {
+  font-family: Lato;
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 2.0em;
+  color: black;
+  font-family: Lato;
+  font-weight: 100;
+}
+
+.social_links a:before {
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  content: attr(title);
+  margin-right: 0.3em;
+  font-size: 6.0em;
+}
+
+.social_links a:hover, .social_links a:visited, .social_links a:link, .social_links a:active {
+  color: white;
+  text-decoration: none;
+}
+
+h1, h2, body {
+  text-align: center;
+}
+
+body {
+  background-color: #6dafc5;
+}
+
+.site_title {
+  margin: 5% 0% 5% 0%;
+}
+
+.site_subtitle {
+  margin: 0% 0% 5% 0%;
+}
+
+.social_links {
+  margin: 0% 0% 2% 0%;
+}
+.social_links li {
+  display: inline;
+  padding-right: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.panel_header {
+  background-color: white;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.panel_image {
+  min-height: 600px;
+  width: 100%;
+  text-align: center;
+  background-image: url("/assets/TwoDotsPanel.png");
+  background-position: center;
+}

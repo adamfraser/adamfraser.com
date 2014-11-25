@@ -1,0 +1,48 @@
+@import 'reset';
+@import 'fonts';
+
+$light-blue: #6DAFC5;
+$light-green: #8ACCBE;
+
+h1, h2, body {
+  text-align: center;
+}
+
+body {
+  background-color: $light-blue;
+}
+
+.site_title {
+  margin: 5% 0% 5% 0%;
+}
+
+.site_subtitle {
+  margin: 0% 0% 5% 0%;
+}
+
+.social_links {
+  margin: 0% 0% 2% 0%;
+
+  li {
+    display: inline;
+    padding-right: 1em;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.panel_header, {
+  background-color: white;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.panel_image {
+  min-height: 600px;
+  width: 100%;
+  text-align: center;
+  background-image: url("/assets/TwoDotsPanel.png");
+  background-position: center;
+}
+
