@@ -1,6 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain) */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -62,7 +63,7 @@ h1, h2, body {
 }
 
 body {
-  font-family: "Roboto Slab", Helvetica, sans-serif;
+  font-family: "Roboto Slab", Georgia, serif;
   font-size: 120%;
 }
 
