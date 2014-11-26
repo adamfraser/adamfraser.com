@@ -131,6 +131,11 @@ body {
   background-color: #6dafc5;
 }
 
+.inline_link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .site_title {
   margin: 5% 0% 5% 0%;
 }
