@@ -54,7 +54,7 @@ table {
 
 @font-face {
   font-family: "Mono Social Icons Font";
-  src: url("/assets/MonoSocialIconsFont-1.10.woff"), url("MonoSocialIconsFont-1.10.ttf"), url("MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont"), url("MonoSocialIconsFont-1.10.eot");
+  src: url("/assets/fonts/MonoSocialIconsFont-1.10.woff"), url("/assets/fonts/MonoSocialIconsFont-1.10.ttf"), url("/assets/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont"), url("/assets/fonts/MonoSocialIconsFont-1.10.eot");
   font-weight: normal;
   font-style: normal;
 }
@@ -157,9 +157,21 @@ ul {
 }
 
 .panel_image {
-  min-height: 600px;
+  min-height: 400px;
   width: 100%;
   text-align: center;
-  background-image: url("/assets/TwoDotsPanel.png");
   background-position: center;
+}
+
+.two_dots_panel {
+  background-image: url("/assets/TwoDotsPanel.png");
+}
+
+.dots_panel {
+  background-color: #8accbe;
+  min-width: 400px;
+}
+
+.dots_logo {
+  margin-top: 120px;
 }

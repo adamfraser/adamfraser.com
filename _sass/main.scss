@@ -40,10 +40,22 @@ ul {
 }
 
 .panel_image {
-  min-height: 600px;
+  min-height: 400px;
   width: 100%;
   text-align: center;
-  background-image: url("/assets/TwoDotsPanel.png");
   background-position: center;
+}
+
+.two_dots_panel {
+  background-image: url("/assets/TwoDotsPanel.png");
+}
+
+.dots_panel {
+  background-color: $light-green;
+  min-width: 400px;
+}
+
+.dots_logo {
+  margin-top: 120px;
 }
 
